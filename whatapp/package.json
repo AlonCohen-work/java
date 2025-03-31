@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-server",
+  "version": "1.0.0",
+  "main": "whatsapp.js",
+  "scripts": {
+    "start": "node whatsapp.js",
+    "dev": "nodemon whatsapp.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "mongojs": "^3.1.0",
+    "mongoose": "^6.10.0",
+    "morgan": "^1.10.0",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.22",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.5"
+  }
+}
